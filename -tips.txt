@@ -1,0 +1,8 @@
+//Local folder ownership / permissions
+sudo chown -R dukelotherington .
+
+//Make bundle files
+npm run bundle
+
+//Localhost server:
+python -m SimpleHTTPServer 8000

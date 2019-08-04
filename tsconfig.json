@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "target": "es5",  /* es5 works with IE!! */
+        "module": "esnext", /* 'amd' works well in browser if we include requirejs but not needed yet... */
+        "moduleResolution": "node",
+        "sourceMap": false,
+        "experimentalDecorators": true,
+        "lib": ["es2016", "es6", "dom", "es5"],
+        "jsx": "react",
+        "jsxFactory": "h",
+        "removeComments": true,
+        "typeRoots": [ "../node_modules/@types/" ],  //-                     /* List of folders to include type definitions from. */
+        "types": [  ],                           /* Type declaration files to be included in compilation. */
+    }, 
+    "include": ["./**/*"]
+}
