@@ -11,7 +11,7 @@ Preact X and relates IIFE bundles for simple and efficient web page loading:
 ```
 
 
-NOTE: An alternative to the pattern above is to modify the Rollup IIFE build as follows:
+NOTE: An alternative to the pattern above is to modify the Rollup IIFE build to return "preact" instead of "exports" as follows:
 
 ```
 var preact = (function (exports) {
