@@ -11,6 +11,6 @@ export default [{
   },
   plugins: [
     resolve(),
-    gzipPlugin()
+    gzipPlugin() // Not used at present, but useful to see net size when downloaded from our server w/ gzip support
   ]
 }]

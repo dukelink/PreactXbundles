@@ -9,7 +9,7 @@
   "keywords": [],
   "author": "Duke",
   "dependencies": {
-    "preact": "10.0.0-rc.1"
+    "preact": "10.0.0-rc.3"
   },
   "devDependencies": {
     "rollup": "1.18.0",
