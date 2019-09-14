@@ -24,7 +24,8 @@ var preact = (function (exports) {
 
 //	return exports;
 	return preact;
-}({}));```
+}({}));
+```
 
 
 Example of usage (compatible with Preact typescript definitions):
